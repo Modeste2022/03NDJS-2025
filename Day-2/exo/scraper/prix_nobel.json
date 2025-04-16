@@ -1,0 +1,962 @@
+[
+  {
+    "annee": "1901",
+    "physique": "Röntgen, Wilhelm Wilhelm Röntgen",
+    "chimie": "Hoff, Jacobus Henricus van 't Jacobus Henricus van 't Hoff",
+    "psychologie_medecine": "von Behring, Emil Adolf Emil Adolf von Behring",
+    "paix": "Prudhomme, Sully Sully Prudhomme",
+    "economie": "Dunant, Henri Henri Dunant ;Passy, Frédéric Frédéric Passy"
+  },
+  {
+    "annee": "1902",
+    "physique": "Lorentz, Hendrik Hendrik Lorentz ;Zeeman, Pieter Pieter Zeeman",
+    "chimie": "Fischer, Emil Emil Fischer",
+    "psychologie_medecine": "Ross, Ronald Ronald Ross",
+    "paix": "Mommsen, Theodor Theodor Mommsen",
+    "economie": "Ducommun, Élie Élie Ducommun ;Gobat, Albert Albert Gobat"
+  },
+  {
+    "annee": "1903",
+    "physique": "Becquerel, Henri Henri Becquerel ;Curie, Pierre Pierre Curie ;Curie, Marie Marie Curie",
+    "chimie": "Arrhenius, Svante Svante Arrhenius",
+    "psychologie_medecine": "Finsen, Niels Ryberg Niels Ryberg Finsen",
+    "paix": "Bjørnson, Bjørnstjerne Bjørnstjerne Bjørnson",
+    "economie": "Cremer, William Randal William Randal  Cremer"
+  },
+  {
+    "annee": "1904",
+    "physique": "Rayleigh, Lord Lord Rayleigh",
+    "chimie": "Ramsay, William William Ramsay",
+    "psychologie_medecine": "Pavlov, Ivan Ivan Pavlov",
+    "paix": "Mistral, Frédéric Frédéric Mistral ;Echegaray, José José Echegaray",
+    "economie": "Institut de droit international"
+  },
+  {
+    "annee": "1905",
+    "physique": "Lenard, Philipp Philipp Lenard",
+    "chimie": "Baeyer, Adolf von Adolf von Baeyer",
+    "psychologie_medecine": "Koch, Robert Robert Koch",
+    "paix": "Sienkiewicz, Henryk Henryk Sienkiewicz",
+    "economie": "Suttner, Bertha von Bertha von Suttner"
+  },
+  {
+    "annee": "1906",
+    "physique": "Thomson, Joseph John Joseph John  Thomson",
+    "chimie": "Moissan, Henri Henri Moissan",
+    "psychologie_medecine": "Golgi, Camillo Camillo Golgi ;Ramón y Cajal, Santiago Santiago Ramón y Cajal",
+    "paix": "Carducci, Giosuè Giosuè Carducci",
+    "economie": "Roosevelt, Theodore Theodore Roosevelt"
+  },
+  {
+    "annee": "1907",
+    "physique": "Michelson, Albert Abraham Albert Abraham Michelson",
+    "chimie": "Buchner, Eduard Eduard Buchner",
+    "psychologie_medecine": "Laveran, Charles Louis Alphonse Charles Louis Alphonse Laveran",
+    "paix": "Kipling, Rudyard Rudyard Kipling",
+    "economie": "Moneta, Ernesto Teodoro Ernesto Teodoro Moneta ;Renault, Louis Louis Renault"
+  },
+  {
+    "annee": "1908",
+    "physique": "Lippmann, Gabriel Gabriel Lippmann",
+    "chimie": "Rutherford, Ernest Ernest Rutherford",
+    "psychologie_medecine": "Metchnikoff, Élie Élie Metchnikoff ;Ehrlich, Paul Paul Ehrlich",
+    "paix": "Eucken, Rudolf Christoph Rudolf Christoph Eucken",
+    "economie": "Arnoldson, Klas Pontus Klas Pontus Arnoldson ;Bajer, Fredrik Fredrik Bajer"
+  },
+  {
+    "annee": "1909",
+    "physique": "Braun, Karl Ferdinand Karl Ferdinand Braun ;Marconi, Guglielmo Guglielmo Marconi",
+    "chimie": "Ostwald, Wilhelm Wilhelm Ostwald",
+    "psychologie_medecine": "Kocher, Emil Theodor Emil Theodor Kocher",
+    "paix": "Lagerlöf, Selma Selma Lagerlöf",
+    "economie": "Beernaert, Auguste Marie François Auguste Marie François Beernaert ;d'Estournelles de Constant, Paul-Henri-Benjamin Paul-Henri-Benjamin d'Estournelles de Constant"
+  },
+  {
+    "annee": "1910",
+    "physique": "Waals, Johannes Diderik van der Johannes Diderik van der Waals",
+    "chimie": "Wallach, Otto Otto Wallach",
+    "psychologie_medecine": "Kossel, Albrecht Albrecht Kossel",
+    "paix": "Heyse, Paul Paul Heyse",
+    "economie": "Bureau international de la paix"
+  },
+  {
+    "annee": "1911",
+    "physique": "Wien, Wilhelm Wilhelm Wien",
+    "chimie": "Curie, Marie Marie Curie",
+    "psychologie_medecine": "Gullstrand, Allvar Allvar Gullstrand",
+    "paix": "Maeterlinck, Maurice Maurice Maeterlinck",
+    "economie": "Asser, Tobias Tobias Asser ;Fried, Alfred Hermann Alfred Hermann Fried"
+  },
+  {
+    "annee": "1912",
+    "physique": "Dalén, Gustaf Gustaf Dalén",
+    "chimie": "Grignard, Victor Victor Grignard ;Sabatier, Paul Paul Sabatier",
+    "psychologie_medecine": "Carrel, Alexis Alexis Carrel",
+    "paix": "Hauptmann, Gerhart Gerhart Hauptmann",
+    "economie": "Root, Elihu Elihu Root"
+  },
+  {
+    "annee": "1913",
+    "physique": "Kamerlingh Onnes, Heike Heike Kamerlingh Onnes",
+    "chimie": "Werner, Alfred Alfred Werner",
+    "psychologie_medecine": "Richet, Charles Charles Richet",
+    "paix": "Tagore, Rabindranath Rabindranath Tagore",
+    "economie": "La Fontaine, Henri Henri La Fontaine"
+  },
+  {
+    "annee": "1914",
+    "physique": "von Laue, Max Max von Laue",
+    "chimie": "Richards, Theodore William Theodore William Richards",
+    "psychologie_medecine": "Bárány, Robert Robert Bárány",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1915",
+    "physique": "Bragg, William Henry William Henry Bragg ;Bragg, William Lawrence William Lawrence Bragg",
+    "chimie": "Willstätter, Richard Richard Willstätter",
+    "psychologie_medecine": "",
+    "paix": "Rolland, Romain Romain Rolland",
+    "economie": ""
+  },
+  {
+    "annee": "1916",
+    "physique": "",
+    "chimie": "",
+    "psychologie_medecine": "",
+    "paix": "Heidenstam, Verner von Verner von Heidenstam",
+    "economie": ""
+  },
+  {
+    "annee": "1917",
+    "physique": "Barkla, Charles Glover Charles Glover Barkla",
+    "chimie": "",
+    "psychologie_medecine": "",
+    "paix": "Gjellerup, Karl Adolph Karl Adolph Gjellerup ;Pontoppidan, Henrik Henrik Pontoppidan",
+    "economie": "Comité international de la Croix-Rouge"
+  },
+  {
+    "annee": "1918",
+    "physique": "Planck, Max Max Planck",
+    "chimie": "Haber, Fritz Fritz Haber",
+    "psychologie_medecine": "",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1919",
+    "physique": "Stark, Johannes Johannes Stark",
+    "chimie": "",
+    "psychologie_medecine": "Bordet, Jules Jules Bordet",
+    "paix": "Spitteler, Carl Carl Spitteler",
+    "economie": "Wilson, Woodrow Woodrow Wilson"
+  },
+  {
+    "annee": "1920",
+    "physique": "Guillaume, Charles Édouard Charles Édouard Guillaume",
+    "chimie": "Nernst, Walther Walther Nernst",
+    "psychologie_medecine": "Krogh, August August Krogh",
+    "paix": "Hamsun, Knut Knut Hamsun",
+    "economie": "Bourgeois, Léon Léon Bourgeois"
+  },
+  {
+    "annee": "1921",
+    "physique": "Einstein, Albert Albert Einstein",
+    "chimie": "Soddy, Frederick Frederick Soddy",
+    "psychologie_medecine": "",
+    "paix": "France, Anatole Anatole France",
+    "economie": "Branting, Hjalmar Hjalmar Branting ;Lange, Christian Lous Christian Lous Lange"
+  },
+  {
+    "annee": "1922",
+    "physique": "Bohr, Niels Niels Bohr",
+    "chimie": "Aston, Francis William Francis William Aston",
+    "psychologie_medecine": "Hill, Archibald Archibald Hill ;Meyerhof, Otto Fritz Otto Fritz Meyerhof",
+    "paix": "Benavente, Jacinto Jacinto Benavente",
+    "economie": "Nansen, Fridtjof Fridtjof Nansen"
+  },
+  {
+    "annee": "1923",
+    "physique": "Millikan, Robert Andrews Robert Andrews Millikan",
+    "chimie": "Pregl, Fritz Fritz Pregl",
+    "psychologie_medecine": "Banting, Frederick Frederick Banting ;Macleod, John James Rickard John James Rickard Macleod",
+    "paix": "Yeats, W. B. W. B. Yeats",
+    "economie": ""
+  },
+  {
+    "annee": "1924",
+    "physique": "Siegbahn, Manne Manne Siegbahn",
+    "chimie": "",
+    "psychologie_medecine": "Einthoven, Willem Willem Einthoven",
+    "paix": "Reymont, Władysław Władysław Reymont",
+    "economie": ""
+  },
+  {
+    "annee": "1925",
+    "physique": "Franck, James James Franck ;Hertz, Gustav Ludwig Gustav Ludwig Hertz",
+    "chimie": "Zsigmondy, Richard Adolf Richard Adolf Zsigmondy",
+    "psychologie_medecine": "",
+    "paix": "Shaw, George Bernard George Bernard Shaw",
+    "economie": "Chamberlain, Austen Austen Chamberlain ;Dawes, Charles G. Charles G. Dawes"
+  },
+  {
+    "annee": "1926",
+    "physique": "Perrin, Jean Baptiste Jean Baptiste Perrin",
+    "chimie": "Svedberg, Theodor Theodor Svedberg",
+    "psychologie_medecine": "Fibiger, Johannes Johannes Fibiger",
+    "paix": "Deledda, Grazia Grazia Deledda",
+    "economie": "Briand, Aristide Aristide Briand ;Stresemann, Gustav Gustav Stresemann"
+  },
+  {
+    "annee": "1927",
+    "physique": "Compton, Arthur Arthur Compton ;Wilson, Charles Thomson Rees Charles Thomson Rees Wilson",
+    "chimie": "Wieland, Heinrich Otto Heinrich Otto Wieland",
+    "psychologie_medecine": "Wagner-Jauregg, Julius Julius Wagner-Jauregg",
+    "paix": "Bergson, Henri Henri Bergson",
+    "economie": "Buisson, Ferdinand Ferdinand Buisson ;Quidde, Ludwig Ludwig Quidde"
+  },
+  {
+    "annee": "1928",
+    "physique": "Richardson, Owen Willans Owen Willans Richardson",
+    "chimie": "Windaus, Adolf Otto Reinhold Adolf Otto Reinhold Windaus",
+    "psychologie_medecine": "Nicolle, Charles Charles Nicolle",
+    "paix": "Undset, Sigrid Sigrid Undset",
+    "economie": ""
+  },
+  {
+    "annee": "1929",
+    "physique": "Broglie, Louis de Louis de Broglie",
+    "chimie": "Harden, Arthur Arthur Harden ;von Euler-Chelpin, Hans Hans von Euler-Chelpin",
+    "psychologie_medecine": "Eijkman, Christiaan Christiaan Eijkman ;Hopkins, Frederick Gowland Frederick Gowland Hopkins",
+    "paix": "Mann, Thomas Thomas Mann",
+    "economie": "Kellogg, Frank B. Frank B. Kellogg"
+  },
+  {
+    "annee": "1930",
+    "physique": "Raman, C. V. C. V. Raman",
+    "chimie": "Fischer, Hans Hans Fischer",
+    "psychologie_medecine": "Landsteiner, Karl Karl Landsteiner",
+    "paix": "Lewis, Sinclair Sinclair Lewis",
+    "economie": "Söderblom, Nathan Nathan Söderblom"
+  },
+  {
+    "annee": "1931",
+    "physique": "",
+    "chimie": "Bosch, Carl Carl Bosch ;Bergius, Friedrich Friedrich Bergius",
+    "psychologie_medecine": "Warburg, Otto Heinrich Otto Heinrich Warburg",
+    "paix": "Karlfeldt, Erik Axel Erik Axel Karlfeldt",
+    "economie": "Addams, Jane Jane Addams ;Butler, Nicholas Murray Nicholas Murray Butler"
+  },
+  {
+    "annee": "1932",
+    "physique": "Heisenberg, Werner Werner Heisenberg",
+    "chimie": "Langmuir, Irving Irving Langmuir",
+    "psychologie_medecine": "Sherrington, Charles Scott Charles Scott Sherrington ;Adrian, Edgar Edgar Adrian",
+    "paix": "Galsworthy, John John Galsworthy",
+    "economie": ""
+  },
+  {
+    "annee": "1933",
+    "physique": "Schrödinger, Erwin Erwin Schrödinger ;Dirac, Paul Paul Dirac",
+    "chimie": "",
+    "psychologie_medecine": "Morgan, Thomas Hunt Thomas Hunt Morgan",
+    "paix": "Bounine, Ivan Ivan Bounine",
+    "economie": "Angell, Norman Norman Angell"
+  },
+  {
+    "annee": "1934",
+    "physique": "",
+    "chimie": "Urey, Harold Harold Urey",
+    "psychologie_medecine": "Whipple, George George Whipple ;Minot, George George Minot ;Murphy, William William Murphy",
+    "paix": "Pirandello, Luigi Luigi Pirandello",
+    "economie": "Henderson, Arthur Arthur Henderson"
+  },
+  {
+    "annee": "1935",
+    "physique": "Chadwick, James James Chadwick",
+    "chimie": "Joliot-Curie, Frédéric Frédéric Joliot-Curie ;Joliot-Curie, Irène Irène Joliot-Curie",
+    "psychologie_medecine": "Spemann, Hans Hans Spemann",
+    "paix": "",
+    "economie": "von Ossietzky, Carl Carl von Ossietzky"
+  },
+  {
+    "annee": "1936",
+    "physique": "Hess, Victor Francis Victor Francis Hess ;Anderson, Carl David Carl David Anderson",
+    "chimie": "Debye, Peter Peter Debye",
+    "psychologie_medecine": "Dale, Henry Hallett Henry Hallett Dale ;Loewi, Otto Otto Loewi",
+    "paix": "O'Neill, Eugene Eugene O'Neill",
+    "economie": "Lamas, Carlos Saavedra Carlos Saavedra Lamas"
+  },
+  {
+    "annee": "1937",
+    "physique": "Davisson, Clinton Clinton Davisson ;Thomson, George Paget George Paget Thomson",
+    "chimie": "Haworth, Norman Norman Haworth ;Karrer, Paul Paul Karrer",
+    "psychologie_medecine": "Szent-Györgyi, Albert Albert Szent-Györgyi",
+    "paix": "du Gard, Roger Martin Roger Martin du Gard",
+    "economie": "Cecil of Chelwood, Le Vicomte Le Vicomte Cecil of Chelwood"
+  },
+  {
+    "annee": "1938",
+    "physique": "Fermi, Enrico Enrico Fermi",
+    "chimie": "Kuhn, Richard Richard Kuhn[A]",
+    "psychologie_medecine": "Heymans, Corneille Corneille Heymans",
+    "paix": "Buck, Pearl S. Pearl S. Buck",
+    "economie": "Nansen International Office For Refugees"
+  },
+  {
+    "annee": "1939",
+    "physique": "Lawrence, Ernest Ernest Lawrence",
+    "chimie": "Butenandt, Adolf Adolf Butenandt ;[A]Ružička, Lavoslav Lavoslav Ružička",
+    "psychologie_medecine": "Domagk, Gerhard Gerhard Domagk[A]",
+    "paix": "Sillanpää, Frans Eemil Frans Eemil Sillanpää",
+    "economie": ""
+  },
+  {
+    "annee": "1940",
+    "physique": "",
+    "chimie": "",
+    "psychologie_medecine": "",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1941",
+    "physique": "",
+    "chimie": "",
+    "psychologie_medecine": "",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1942",
+    "physique": "",
+    "chimie": "",
+    "psychologie_medecine": "",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1943",
+    "physique": "Stern, Otto Otto Stern",
+    "chimie": "Hevesy, George de George de Hevesy",
+    "psychologie_medecine": "Dam, Henrik Henrik Dam ;Doisy, Edward Adelbert Edward Adelbert Doisy",
+    "paix": "",
+    "economie": ""
+  },
+  {
+    "annee": "1944",
+    "physique": "Rabi, Isidor Isaac Isidor Isaac Rabi",
+    "chimie": "Hahn, Otto Otto Hahn",
+    "psychologie_medecine": "Erlanger, Joseph Joseph Erlanger ;Gasser, Herbert Spencer Herbert Spencer Gasser",
+    "paix": "Jensen, Johannes Vilhelm Johannes Vilhelm Jensen",
+    "economie": "Comité international de la Croix-Rouge"
+  },
+  {
+    "annee": "1945",
+    "physique": "Pauli, Wolfgang Wolfgang Pauli",
+    "chimie": "Virtanen, Artturi Ilmari Artturi Ilmari Virtanen",
+    "psychologie_medecine": "Fleming, Alexander Alexander Fleming ;Chain, Ernst Boris Ernst Boris Chain ;Florey, Howard Howard Florey",
+    "paix": "Mistral, Gabriela Gabriela Mistral",
+    "economie": "Hull, Cordell Cordell Hull"
+  },
+  {
+    "annee": "1946",
+    "physique": "Bridgman, Percy Williams Percy Williams Bridgman",
+    "chimie": "Sumner, James B. James B. Sumner ;Northrop, John Howard John Howard Northrop ;Stanley, Wendell Meredith Wendell Meredith Stanley",
+    "psychologie_medecine": "Muller, Hermann Joseph Hermann Joseph Muller",
+    "paix": "Hesse, Hermann Hermann Hesse",
+    "economie": "Balch, Emily Greene Emily Greene Balch ;Mott, John John Mott"
+  },
+  {
+    "annee": "1947",
+    "physique": "Appleton, Edward Victor Edward Victor Appleton",
+    "chimie": "Robinson, Robert Robert Robinson",
+    "psychologie_medecine": "Cori, Carl Ferdinand Carl Ferdinand Cori ;Cori, Gerty Gerty Cori ;Houssay, Bernardo Bernardo Houssay",
+    "paix": "Gide, André André Gide",
+    "economie": "Friends Service Council ;American Friends Service Committee"
+  },
+  {
+    "annee": "1948",
+    "physique": "Blackett, Patrick Patrick Blackett",
+    "chimie": "Tiselius, Arne Arne Tiselius",
+    "psychologie_medecine": "Müller, Paul Hermann Paul Hermann Müller",
+    "paix": "Eliot, T. S. T. S. Eliot",
+    "economie": "[B]"
+  },
+  {
+    "annee": "1949",
+    "physique": "Yukawa, Hideki Hideki Yukawa",
+    "chimie": "Giauque, William William Giauque",
+    "psychologie_medecine": "Hess, Walter Rudolf Walter Rudolf Hess ;Moniz, António Egas António Egas Moniz",
+    "paix": "Faulkner, William William Faulkner",
+    "economie": "Boyd Orr, John John Boyd Orr"
+  },
+  {
+    "annee": "1950",
+    "physique": "Powell, Cecil Frank Cecil Frank  Powell",
+    "chimie": "Diels, Otto Otto Diels ;Alder, Kurt Kurt Alder",
+    "psychologie_medecine": "Hench, Philip Showalter Philip Showalter Hench ;Kendall, Edward Calvin Edward Calvin Kendall ;Reichstein, Tadeusz Tadeusz  Reichstein",
+    "paix": "Russell, Bertrand Bertrand Russell",
+    "economie": "Bunche, Ralph Ralph Bunche"
+  },
+  {
+    "annee": "1951",
+    "physique": "Cockcroft, John John Cockcroft ;Walton, Ernest Ernest Walton",
+    "chimie": "McMillan, Edwin Edwin McMillan ;Seaborg, Glenn T. Glenn T. Seaborg",
+    "psychologie_medecine": "Theiler, Max Max Theiler",
+    "paix": "Lagerkvist, Pär Pär Lagerkvist",
+    "economie": "Jouhaux, Léon Léon Jouhaux"
+  },
+  {
+    "annee": "1952",
+    "physique": "Bloch, Felix Felix Bloch ;Purcell, Edward Mills Edward Mills Purcell",
+    "chimie": "Martin, Archer John Porter Archer John Porter Martin ;Synge, Richard Laurence Millington Richard Laurence Millington Synge",
+    "psychologie_medecine": "Waksman, Selman Selman Waksman",
+    "paix": "Mauriac, François François Mauriac",
+    "economie": "Schweitzer, Albert Albert Schweitzer"
+  },
+  {
+    "annee": "1953",
+    "physique": "Zernike, Frederik Frederik  Zernike",
+    "chimie": "Staudinger, Hermann Hermann Staudinger",
+    "psychologie_medecine": "Krebs, Hans Adolf Hans Adolf Krebs ;Lipmann, Fritz Albert Fritz Albert Lipmann",
+    "paix": "Churchill, Winston Winston Churchill",
+    "economie": "Marshall, George George Marshall"
+  },
+  {
+    "annee": "1954",
+    "physique": "Born, Max Max Born ;Bothe, Walther Walther Bothe",
+    "chimie": "Pauling, Linus Linus Pauling",
+    "psychologie_medecine": "Enders, John Franklin John Franklin Enders ;Robbins, Frederick Chapman Frederick Chapman Robbins ;Weller, Thomas Huckle Thomas Huckle Weller",
+    "paix": "Hemingway, Ernest Ernest Hemingway",
+    "economie": "Haut Commissariat des Nations unies pour les réfugiés"
+  },
+  {
+    "annee": "1955",
+    "physique": "Lamb, Willis Willis Lamb ;Kusch, Polykarp Polykarp Kusch",
+    "chimie": "du Vigneaud, Vincent Vincent du Vigneaud",
+    "psychologie_medecine": "Theorell, Hugo Hugo Theorell",
+    "paix": "Laxness, Halldór Halldór Laxness",
+    "economie": ""
+  },
+  {
+    "annee": "1956",
+    "physique": "Bardeen, John John Bardeen ;Brattain, Walter Houser Walter Houser Brattain ;Shockley, William William Shockley",
+    "chimie": "Hinshelwood, Cyril Norman Cyril Norman Hinshelwood ;Semionov, Nikolaï Nikolaï  Semionov",
+    "psychologie_medecine": "Cournand, André Frédéric André Frédéric Cournand ;Forssmann, Werner Werner Forssmann ;Richards, Dickinson W. Dickinson W. Richards",
+    "paix": "Jiménez, Juan Ramón Juan Ramón Jiménez",
+    "economie": ""
+  },
+  {
+    "annee": "1957",
+    "physique": "Yang, Chen Ning Chen Ning Yang ;Lee, Tsung-Dao Tsung-Dao Lee",
+    "chimie": "Todd, Alexander Robert Alexander Robert  Todd",
+    "psychologie_medecine": "Bovet, Daniel Daniel Bovet",
+    "paix": "Camus, Albert Albert Camus",
+    "economie": "Pearson, Lester B. Lester B. Pearson"
+  },
+  {
+    "annee": "1958",
+    "physique": "Cherenkov, Pavel Pavel Cherenkov ;Frank, Ilya Ilya Frank ;Tamm, Igor Igor Tamm",
+    "chimie": "Sanger, Frederick Frederick Sanger",
+    "psychologie_medecine": "Beadle, George Wells George Wells Beadle ;Tatum, Edward Lawrie Edward Lawrie Tatum ;Lederberg, Joshua Joshua Lederberg",
+    "paix": "Pasternak, Boris Boris Pasternak[C]",
+    "economie": "Pire, Dominique Dominique Pire"
+  },
+  {
+    "annee": "1959",
+    "physique": "Segrè, Emilio G. Emilio G. Segrè ;Chamberlain, Owen Owen Chamberlain",
+    "chimie": "Heyrovský, Jaroslav Jaroslav Heyrovský",
+    "psychologie_medecine": "Kornberg, Arthur Arthur Kornberg ;Ochoa, Severo Severo Ochoa",
+    "paix": "Quasimodo, Salvatore Salvatore Quasimodo",
+    "economie": "Noel-Baker, Philip Philip Noel-Baker"
+  },
+  {
+    "annee": "1960",
+    "physique": "Glaser, Donald A. Donald A. Glaser",
+    "chimie": "Libby, Willard Willard Libby",
+    "psychologie_medecine": "Burnet, Frank Macfarlane Frank Macfarlane Burnet ;Medawar, Peter Peter Medawar",
+    "paix": "Perse, Saint-John Saint-John Perse",
+    "economie": "Lutuli, Albert Albert Lutuli"
+  },
+  {
+    "annee": "1961",
+    "physique": "Hofstadter, Robert Robert Hofstadter ;Mössbauer, Rudolf Rudolf Mössbauer",
+    "chimie": "Calvin, Melvin Melvin Calvin",
+    "psychologie_medecine": "von Békésy, Georg Georg von Békésy",
+    "paix": "Andrić, Ivo Ivo Andrić",
+    "economie": "Hammarskjöld, Dag Dag Hammarskjöld"
+  },
+  {
+    "annee": "1962",
+    "physique": "Landau, Lev Lev Landau",
+    "chimie": "Perutz, Max Max Perutz ;Kendrew, John John Kendrew",
+    "psychologie_medecine": "Crick, Francis Francis Crick ;Watson, James D. James D. Watson ;Wilkins, Maurice Maurice Wilkins",
+    "paix": "Steinbeck, John John Steinbeck",
+    "economie": "Pauling, Linus Linus Pauling"
+  },
+  {
+    "annee": "1963",
+    "physique": "Wigner, Eugene Eugene Wigner ;Goeppert-Mayer, Maria Maria Goeppert-Mayer ;Jensen, J. Hans D. J. Hans D. Jensen",
+    "chimie": "Ziegler, Karl Karl Ziegler ;Natta, Giulio Giulio Natta",
+    "psychologie_medecine": "Eccles, John Carew John Carew  Eccles ;Hodgkin, Alan Lloyd Alan Lloyd Hodgkin ;Huxley, Andrew Andrew Huxley",
+    "paix": "Seferis, Giorgos Giorgos Seferis",
+    "economie": "Comité international de la Croix-Rouge ;Fédération de la Croix-Rouge et du Croissant-Rouge"
+  },
+  {
+    "annee": "1964",
+    "physique": "Townes, Charles Hard Charles Hard Townes ;Basov, Nikolay Nikolay Basov ;Prokhorov, Alexandre Mikhaïlovitch Alexandre Mikhaïlovitch  Prokhorov",
+    "chimie": "Hodgkin, Dorothy Dorothy Hodgkin",
+    "psychologie_medecine": "Bloch, Konrad Emil Konrad Emil Bloch ;Lynen, Feodor Felix Konrad Feodor Felix Konrad Lynen",
+    "paix": "Sartre, Jean-Paul Jean-Paul Sartre[D]",
+    "economie": "King, Jr., Martin Luther Martin Luther King, Jr."
+  },
+  {
+    "annee": "1965",
+    "physique": "Tomonaga, Sin-Itiro Sin-Itiro Tomonaga ;Schwinger, Julian Julian Schwinger ;Feynman, Richard Richard Feynman",
+    "chimie": "Woodward, Robert Burns Robert Burns Woodward",
+    "psychologie_medecine": "Jacob, François François Jacob ;Lwoff, André Michel André Michel Lwoff ;Monod, Jacques Jacques Monod",
+    "paix": "Cholokhov, Mikhaïl Mikhaïl  Cholokhov",
+    "economie": "Fonds des Nations unies pour l'enfance"
+  },
+  {
+    "annee": "1966",
+    "physique": "Kastler, Alfred Alfred Kastler",
+    "chimie": "Mulliken, Robert S. Robert S. Mulliken",
+    "psychologie_medecine": "Rous, Francis Peyton Francis Peyton Rous ;Huggins, Charles Brenton Charles Brenton Huggins",
+    "paix": "Agnon, Shmuel Yosef Shmuel Yosef Agnon ;Sachs, Nelly Nelly Sachs",
+    "economie": ""
+  },
+  {
+    "annee": "1967",
+    "physique": "Bethe, Hans Hans Bethe",
+    "chimie": "Eigen, Manfred Manfred Eigen ;Norrish, Ronald George Wreyford Ronald George Wreyford Norrish ;Porter, George George Porter",
+    "psychologie_medecine": "Granit, Ragnar Ragnar Granit ;Hartline, Haldan Keffer Haldan Keffer Hartline ;Wald, George George Wald",
+    "paix": "Asturias, Miguel Ángel Miguel Ángel Asturias",
+    "economie": ""
+  },
+  {
+    "annee": "1968",
+    "physique": "Alvarez, Luis Walter Luis Walter Alvarez",
+    "chimie": "Onsager, Lars Lars Onsager",
+    "psychologie_medecine": "Holley, Robert W. Robert W. Holley ;Khorana, Har Gobind Har Gobind Khorana ;Nirenberg, Marshall Warren Marshall Warren Nirenberg",
+    "paix": "Kawabata, Yasunari Yasunari Kawabata",
+    "economie": "Cassin, René René Cassin"
+  },
+  {
+    "annee": "1969",
+    "physique": "Gell-Mann, Murray Murray Gell-Mann",
+    "chimie": "Barton, Derek Derek Barton ;Hassel, Odd Odd Hassel",
+    "psychologie_medecine": "Delbrück, Max Max Delbrück ;Hershey, Alfred Alfred Hershey ;Luria, Salvador Salvador Luria",
+    "paix": "Beckett, Samuel Samuel Beckett",
+    "economie": "Organisation internationale du travail"
+  },
+  {
+    "annee": "1970",
+    "physique": "Alfvén, Hannes Hannes Alfvén ;Néel, Louis Louis Néel",
+    "chimie": "Leloir, Luis Federico Luis Federico Leloir",
+    "psychologie_medecine": "Axelrod, Julius Julius Axelrod ;von Euler, Ulf Ulf von Euler ;Katz, Bernard Bernard Katz",
+    "paix": "Solzhenitsyn, Aleksandr Aleksandr Solzhenitsyn",
+    "economie": "Borlaug, Norman Norman Borlaug"
+  },
+  {
+    "annee": "1971",
+    "physique": "Gabor, Dennis Dennis Gabor",
+    "chimie": "Herzberg, Gerhard Gerhard Herzberg",
+    "psychologie_medecine": "Sutherland, Jr., Earl Wilbur Earl Wilbur Sutherland, Jr.",
+    "paix": "Neruda, Pablo Pablo Neruda",
+    "economie": "Brandt, Willy Willy Brandt"
+  },
+  {
+    "annee": "1972",
+    "physique": "Bardeen, John John Bardeen ;Cooper, Leon Leon Cooper ;Schrieffer, John Robert John Robert Schrieffer",
+    "chimie": "Anfinsen, Christian B. Christian B. Anfinsen ;Moore, Stanford Stanford Moore ;Stein, William Howard William Howard Stein",
+    "psychologie_medecine": "Edelman, Gerald Gerald Edelman ;Porter, Rodney Robert Rodney Robert Porter",
+    "paix": "Böll, Heinrich Heinrich Böll",
+    "economie": ""
+  },
+  {
+    "annee": "1973",
+    "physique": "Esaki, Leo Leo Esaki ;Giaever, Ivar Ivar Giaever ;Josephson, Brian David Brian David Josephson",
+    "chimie": "Fischer, Ernst Otto Ernst Otto Fischer ;Wilkinson, Geoffrey Geoffrey Wilkinson",
+    "psychologie_medecine": "von Frisch, Karl Karl von Frisch ;Lorenz, Konrad Konrad Lorenz ;Tinbergen, Nikolaas Nikolaas Tinbergen",
+    "paix": "White, Patrick Patrick White",
+    "economie": "Kissinger, Henry Henry Kissinger ;Duc Tho, Le Le Duc Tho[E]"
+  },
+  {
+    "annee": "1974",
+    "physique": "Ryle, Martin Martin Ryle ;Hewish, Antony Antony Hewish",
+    "chimie": "Flory, Paul Paul Flory",
+    "psychologie_medecine": "Claude, Albert Albert Claude ;de Duve, Christian Christian de Duve ;Palade, George Emil George Emil Palade",
+    "paix": "Johnson, Eyvind Eyvind Johnson ;Martinson, Harry Harry Martinson",
+    "economie": "MacBride, Seán Seán MacBride ;Satō, Eisaku Eisaku Satō"
+  },
+  {
+    "annee": "1975",
+    "physique": "Bohr, Aage Aage Bohr ;Mottelson, Ben Roy Ben Roy Mottelson ;Rainwater, James James Rainwater",
+    "chimie": "Cornforth, John John Cornforth ;Prelog, Vladimir Vladimir Prelog",
+    "psychologie_medecine": "Baltimore, David David Baltimore ;Dulbecco, Renato Renato Dulbecco ;Temin, Howard Martin Howard Martin Temin",
+    "paix": "Montale, Eugenio Eugenio Montale",
+    "economie": "Sakharov, Andrei Andrei Sakharov"
+  },
+  {
+    "annee": "1976",
+    "physique": "Richter, Burton Burton Richter ;Ting, Samuel C. C. Samuel C. C. Ting",
+    "chimie": "Lipscomb, William William Lipscomb",
+    "psychologie_medecine": "Blumberg, Baruch Samuel Baruch Samuel Blumberg ;Gajdusek, Daniel Carleton Daniel Carleton Gajdusek",
+    "paix": "Bellow, Saul Saul Bellow",
+    "economie": "Williams, Betty Betty Williams ;Maguire, Mairead Mairead Maguire"
+  },
+  {
+    "annee": "1977",
+    "physique": "Anderson, Philip Warren Philip Warren Anderson ;Mott, Nevill Francis Nevill Francis Mott ;van Vleck, John Hasbrouck John Hasbrouck van Vleck",
+    "chimie": "Prigogine, Ilya Ilya Prigogine",
+    "psychologie_medecine": "Guillemin, Roger Roger Guillemin ;Schally, Andrew Andrew Schally ;Yalow, Rosalyn Sussman Rosalyn Sussman Yalow",
+    "paix": "Aleixandre, Vicente Vicente Aleixandre",
+    "economie": "Amnesty International"
+  },
+  {
+    "annee": "1978",
+    "physique": "Kapitsa, Pyotr Pyotr Kapitsa ;Penzias, Arno Allan Arno Allan Penzias ;Wilson, Robert Woodrow Robert Woodrow Wilson",
+    "chimie": "Mitchell, Peter D. Peter D. Mitchell",
+    "psychologie_medecine": "Arber, Werner Werner Arber ;Nathans, Daniel Daniel Nathans ;Smith, Hamilton O. Hamilton O. Smith",
+    "paix": "Singer, Isaac Bashevis Isaac Bashevis Singer",
+    "economie": "Sadat, Anwar Anwar Sadat ;Begin, Menachem Menachem Begin"
+  },
+  {
+    "annee": "1979",
+    "physique": "Glashow, Sheldon Lee Sheldon Lee Glashow ;Salam, Abdus Abdus Salam ;Weinberg, Steven Steven Weinberg",
+    "chimie": "Brown, Herbert C. Herbert C. Brown ;Wittig, Georg Georg Wittig",
+    "psychologie_medecine": "Cormack, Allan McLeod Allan McLeod Cormack ;Hounsfield, Godfrey Godfrey Hounsfield",
+    "paix": "Elytis, Odysseas Odysseas Elytis",
+    "economie": "Teresa, Mère Mère Teresa"
+  },
+  {
+    "annee": "1980",
+    "physique": "Cronin, James James Cronin ;Fitch, Val Logsdon Val Logsdon Fitch",
+    "chimie": "Berg, Paul Paul Berg ;Gilbert, Walter Walter Gilbert ;Sanger, Frederick Frederick Sanger",
+    "psychologie_medecine": "Benacerraf, Baruj Baruj Benacerraf ;Dausset, Jean Jean Dausset ;Snell, George Davis George Davis Snell",
+    "paix": "Miłosz, Czesław Czesław Miłosz",
+    "economie": "Esquivel, Adolfo Pérez Adolfo Pérez Esquivel"
+  },
+  {
+    "annee": "1981",
+    "physique": "Bloembergen, Nicolaas Nicolaas Bloembergen ;Schawlow, Arthur Leonard Arthur Leonard Schawlow ;Siegbahn, Kai Kai Siegbahn",
+    "chimie": "Fukui, Kenichi Kenichi Fukui ;Hoffmann, Roald Roald Hoffmann",
+    "psychologie_medecine": "Sperry, Roger Wolcott Roger Wolcott Sperry ;Hubel, David H. David H. Hubel ;Wiesel, Torsten Torsten Wiesel",
+    "paix": "Canetti, Elias Elias Canetti",
+    "economie": "Haut Commissariat des Nations unies pour les réfugiés"
+  },
+  {
+    "annee": "1982",
+    "physique": "Wilson, Kenneth G. Kenneth G. Wilson",
+    "chimie": "Klug, Aaron Aaron Klug",
+    "psychologie_medecine": "Bergström, Sune Sune Bergström ;Samuelsson, Bengt I. Bengt I. Samuelsson ;Vane, John John Vane",
+    "paix": "Márquez, Gabriel García Gabriel García Márquez",
+    "economie": "Myrdal, Alva Alva Myrdal ;Robles, Alfonso García Alfonso García Robles"
+  },
+  {
+    "annee": "1983",
+    "physique": "Chandrasekhar, Subrahmanyan Subrahmanyan Chandrasekhar ;Fowler, William Alfred William Alfred Fowler",
+    "chimie": "Taube, Henry Henry Taube",
+    "psychologie_medecine": "McClintock, Barbara Barbara McClintock",
+    "paix": "Golding, William William Golding",
+    "economie": "Wałęsa, Lech Lech Wałęsa"
+  },
+  {
+    "annee": "1984",
+    "physique": "Rubbia, Carlo Carlo Rubbia ;van der Meer, Simon Simon van der Meer",
+    "chimie": "Merrifield, Robert Bruce Robert Bruce Merrifield",
+    "psychologie_medecine": "Jerne, Niels Kaj Niels Kaj Jerne ;Köhler, Georges J. F. Georges J. F. Köhler ;Milstein, César César Milstein",
+    "paix": "Seifert, Jaroslav Jaroslav Seifert",
+    "economie": "Tutu, Desmond Desmond Tutu"
+  },
+  {
+    "annee": "1985",
+    "physique": "von Klitzing, Klaus Klaus von Klitzing",
+    "chimie": "Hauptman, Herbert A. Herbert A. Hauptman ;Karle, Jerome Jerome Karle",
+    "psychologie_medecine": "Brown, Michael Stuart Michael Stuart Brown ;Goldstein, Joseph L. Joseph L. Goldstein",
+    "paix": "Simon, Claude Claude Simon",
+    "economie": "Association internationale des médecins pour la prévention de la guerre nucléaire"
+  },
+  {
+    "annee": "1986",
+    "physique": "Ruska, Ernst Ernst Ruska ;Binnig, Gerd Gerd Binnig ;Rohrer, Heinrich Heinrich Rohrer",
+    "chimie": "Herschbach, Dudley R. Dudley R. Herschbach ;Lee, Yuan T. Yuan T. Lee ;Polanyi, John John Polanyi",
+    "psychologie_medecine": "Cohen, Stanley Stanley Cohen ;Levi-Montalcini, Rita Rita Levi-Montalcini",
+    "paix": "Soyinka, Wole Wole Soyinka",
+    "economie": "Wiesel, Elie Elie Wiesel"
+  },
+  {
+    "annee": "1987",
+    "physique": "Bednorz, Johannes Georg Johannes Georg Bednorz ;Müller, Karl Alexander Karl Alexander Müller",
+    "chimie": "Cram, Donald J. Donald J. Cram ;Lehn, Jean-Marie Jean-Marie Lehn ;Pedersen, Charles J. Charles J. Pedersen",
+    "psychologie_medecine": "Tonegawa, Susumu Susumu Tonegawa",
+    "paix": "Brodsky, Joseph Joseph Brodsky",
+    "economie": "Arias, Óscar Óscar Arias"
+  },
+  {
+    "annee": "1988",
+    "physique": "Lederman, Leon M. Leon M. Lederman ;Schwartz, Melvin Melvin Schwartz ;Steinberger, Jack Jack Steinberger",
+    "chimie": "Deisenhofer, Johann Johann Deisenhofer ;Huber, Robert Robert Huber ;Michel, Hartmut Hartmut Michel",
+    "psychologie_medecine": "Black, James W. James W. Black ;Elion, Gertrude B. Gertrude B. Elion ;Hitchings, George H. George H. Hitchings",
+    "paix": "Mahfouz, Naguib Naguib Mahfouz",
+    "economie": "Force de maintien de la paix des Nations unies"
+  },
+  {
+    "annee": "1989",
+    "physique": "Ramsey, Norman Foster Norman Foster Ramsey ;Dehmelt, Hans Georg Hans Georg Dehmelt ;Paul, Wolfgang Wolfgang Paul",
+    "chimie": "Altman, Sidney Sidney Altman ;Cech, Thomas Thomas Cech",
+    "psychologie_medecine": "Bishop, J. Michael J. Michael Bishop ;Varmus, Harold E. Harold E. Varmus",
+    "paix": "Cela, Camilo José Camilo José Cela",
+    "economie": "Gyatso, Tenzin Tenzin   Gyatso"
+  },
+  {
+    "annee": "1990",
+    "physique": "Friedman, Jerome Isaac Jerome Isaac Friedman ;Kendall, Henry Way Henry Way Kendall ;Taylor, Richard E. Richard E. Taylor",
+    "chimie": "Corey, Elias James Elias James Corey",
+    "psychologie_medecine": "Murray, Joseph Joseph Murray ;Thomas, E. Donnall E. Donnall Thomas",
+    "paix": "Paz, Octavio Octavio Paz",
+    "economie": "Gorbachev, Mikhaïl Mikhaïl Gorbachev"
+  },
+  {
+    "annee": "1991",
+    "physique": "Gennes, Pierre-Gilles de Pierre-Gilles de Gennes",
+    "chimie": "Ernst, Richard R. Richard R. Ernst",
+    "psychologie_medecine": "Neher, Erwin Erwin Neher ;Sakmann, Bert Bert Sakmann",
+    "paix": "Gordimer, Nadine Nadine Gordimer",
+    "economie": "Suu Kyi, Aung San Aung San Suu Kyi"
+  },
+  {
+    "annee": "1992",
+    "physique": "Charpak, Georges Georges Charpak",
+    "chimie": "Marcus, Rudolph A. Rudolph A. Marcus",
+    "psychologie_medecine": "Fischer, Edmond H. Edmond H. Fischer ;Krebs, Edwin G. Edwin G. Krebs",
+    "paix": "Walcott, Derek Derek Walcott",
+    "economie": "Menchú, Rigoberta Rigoberta Menchú"
+  },
+  {
+    "annee": "1993",
+    "physique": "Hulse, Russell Alan Russell Alan Hulse ;Taylor, Joseph Hooton Joseph Hooton  Taylor",
+    "chimie": "Mullis, Kary Kary Mullis ;Smith, Michael Michael Smith",
+    "psychologie_medecine": "Roberts, Richard J. Richard J. Roberts ;Sharp, Phillip Allen Phillip Allen Sharp",
+    "paix": "Morrison, Toni Toni Morrison",
+    "economie": "Mandela, Nelson Nelson Mandela ;de Klerk, Frederik Frederik   de Klerk"
+  },
+  {
+    "annee": "1994",
+    "physique": "Brockhouse, Bertram Bertram Brockhouse ;Shull, Clifford Clifford Shull",
+    "chimie": "Olah, George Andrew George Andrew Olah",
+    "psychologie_medecine": "Gilman, Alfred G. Alfred G. Gilman ;Rodbell, Martin Martin Rodbell",
+    "paix": "Ōe, Kenzaburō Kenzaburō Ōe",
+    "economie": "Arafat, Yasser Yasser Arafat ;Peres, Shimon Shimon Peres ;Rabin, Yitzhak Yitzhak Rabin"
+  },
+  {
+    "annee": "1995",
+    "physique": "Perl, Martin Lewis Martin Lewis Perl ;Reines, Frederick Frederick Reines",
+    "chimie": "Crutzen, Paul J. Paul J. Crutzen ;Molina, Mario J. Mario J. Molina ;Rowland, Frank Sherwood Frank Sherwood Rowland",
+    "psychologie_medecine": "Lewis, Edward B. Edward B. Lewis ;Nüsslein-Volhard, Christiane Christiane Nüsslein-Volhard ;Wieschaus, Eric F. Eric F. Wieschaus",
+    "paix": "Heaney, Seamus Seamus Heaney",
+    "economie": "Rotblat, Joseph Joseph Rotblat ;Mouvement Pugwash"
+  },
+  {
+    "annee": "1996",
+    "physique": "Lee,  David Morris  David Morris  Lee ;Osheroff, Douglas Douglas Osheroff ;Richardson, Robert Coleman Robert Coleman Richardson",
+    "chimie": "Curl Jr., Robert F. Robert F. Curl Jr. ;Kroto, Harry Harry Kroto ;Smalley, Richard Richard Smalley",
+    "psychologie_medecine": "Doherty, Peter C. Peter C. Doherty ;Zinkernagel, Rolf M. Rolf M. Zinkernagel",
+    "paix": "Szymborska, Wisława Wisława Szymborska",
+    "economie": "Belo, Carlos Filipe Ximenes Carlos Filipe Ximenes Belo ;Ramos-Horta, José José Ramos-Horta"
+  },
+  {
+    "annee": "1997",
+    "physique": "Chu, Steven Steven Chu ;Cohen-Tannoudji, Claude Claude Cohen-Tannoudji ;Phillips, William Daniel William Daniel Phillips",
+    "chimie": "Boyer, Paul D. Paul D. Boyer ;Walker, John E. John E. Walker ;Skou, Jens Christian Jens Christian Skou",
+    "psychologie_medecine": "Prusiner, Stanley B. Stanley B. Prusiner",
+    "paix": "Fo, Dario Dario Fo",
+    "economie": "Campagne internationale pour l'interdiction des mines antipersonnel ;Williams, Jody Jody Williams"
+  },
+  {
+    "annee": "1998",
+    "physique": "Laughlin, Robert B. Robert B. Laughlin ;Störmer, Horst Ludwig Horst Ludwig Störmer ;Tsui, Daniel C. Daniel C. Tsui",
+    "chimie": "Kohn, Walter Walter Kohn ;Pople, John John Pople",
+    "psychologie_medecine": "Furchgott, Robert F. Robert F. Furchgott ;Ignarro, Louis Louis Ignarro ;Murad, Ferid Ferid Murad",
+    "paix": "Saramago, José José Saramago",
+    "economie": "Hume, John John Hume ;Trimble, David David Trimble"
+  },
+  {
+    "annee": "1999",
+    "physique": "Hooft, Gerard 't Gerard 't Hooft ;Veltman, Martinus Martinus  Veltman",
+    "chimie": "Zewail, Ahmed Ahmed Zewail",
+    "psychologie_medecine": "Blobel, Günter Günter Blobel",
+    "paix": "Grass, Günter Günter Grass",
+    "economie": "Médecins sans frontières"
+  },
+  {
+    "annee": "2000",
+    "physique": "Alferov, Zhores Zhores Alferov ;Kroemer, Herbert Herbert Kroemer ;Kilby, Jack Jack Kilby",
+    "chimie": "Heeger, Alan J. Alan J. Heeger ;MacDiarmid, Alan Alan MacDiarmid ;Shirakawa, Hideki Hideki Shirakawa",
+    "psychologie_medecine": "Carlsson, Arvid Arvid Carlsson ;Greengard, Paul Paul Greengard ;Kandel, Eric Eric Kandel",
+    "paix": "Xingjian, Gao Gao Xingjian",
+    "economie": "Dae-jung, Kim Kim Dae-jung"
+  },
+  {
+    "annee": "2001",
+    "physique": "Cornell, Eric Allin Eric Allin Cornell ;Ketterle, Wolfgang Wolfgang Ketterle ;Wieman, Carl Carl Wieman",
+    "chimie": "Knowles, William Standish William Standish Knowles ;Noyori, Ryōji Ryōji Noyori ;Sharpless, Karl Barry Karl Barry Sharpless",
+    "psychologie_medecine": "Hartwell, Leland H. Leland H. Hartwell ;Hunt, Tim Tim Hunt ;Nurse, Paul Paul Nurse",
+    "paix": "Naipaul, V. S. V. S. Naipaul",
+    "economie": "Organisation des Nations unies ;Annan, Kofi Kofi Annan"
+  },
+  {
+    "annee": "2002",
+    "physique": "Davis Jr., Raymond Raymond  Davis Jr. ;Koshiba, Masatoshi Masatoshi Koshiba ;Giacconi, Riccardo Riccardo Giacconi",
+    "chimie": "Fenn, John John Fenn ;Tanaka, Koichi Koichi Tanaka ;Wüthrich, Kurt Kurt Wüthrich",
+    "psychologie_medecine": "Brenner, Sydney Sydney Brenner ;Horvitz, H. Robert H. Robert Horvitz ;Sulston, John John Sulston",
+    "paix": "Kertész, Imre Imre Kertész",
+    "economie": "Carter, Jimmy Jimmy Carter"
+  },
+  {
+    "annee": "2003",
+    "physique": "Abrikossov, Alekseï Alekseï   Abrikossov ;Ginzburg, Vitaly Vitaly Ginzburg ;Leggett, Anthony James Anthony James Leggett",
+    "chimie": "Agre, Peter Peter Agre ;MacKinnon, Roderick Roderick MacKinnon",
+    "psychologie_medecine": "Lauterbur, Paul Paul Lauterbur ;Mansfield, Peter Peter Mansfield",
+    "paix": "Coetzee, J. M. J. M. Coetzee",
+    "economie": "Ebadi, Shirin Shirin Ebadi"
+  },
+  {
+    "annee": "2004",
+    "physique": "Gross, David David Gross ;Politzer, Hugh David Hugh David Politzer ;Wilczek, Frank Frank Wilczek",
+    "chimie": "Ciechanover, Aaron Aaron Ciechanover ;Hershko, Avram Avram Hershko ;Rose, Irwin Irwin Rose",
+    "psychologie_medecine": "Axel, Richard Richard Axel ;Buck, Linda B. Linda B. Buck",
+    "paix": "Jelinek, Elfriede Elfriede Jelinek",
+    "economie": "Maathai, Wangari Wangari Maathai"
+  },
+  {
+    "annee": "2005",
+    "physique": "Glauber, Roy J. Roy J. Glauber ;Hall, John L. John L. Hall ;Hänsch, Theodor W. Theodor W. Hänsch",
+    "chimie": "Chauvin, Yves Yves Chauvin ;Grubbs, Robert H. Robert H. Grubbs ;Schrock, Richard R. Richard R. Schrock",
+    "psychologie_medecine": "Marshall, Barry Barry Marshall ;Warren, Robin Robin Warren",
+    "paix": "Pinter, Harold Harold Pinter",
+    "economie": "International Atomic Energy Agency ;ElBaradei, Mohamed Mohamed ElBaradei"
+  },
+  {
+    "annee": "2006",
+    "physique": "Mather, John C. John C. Mather ;Smoot, George George Smoot",
+    "chimie": "Kornberg, Roger D. Roger D. Kornberg",
+    "psychologie_medecine": "Fire, Andrew Andrew Fire ;Mello, Craig Craig Mello",
+    "paix": "Pamuk, Orhan Orhan Pamuk",
+    "economie": "Yunus, Muhammad Muhammad Yunus ;Grameen Bank"
+  },
+  {
+    "annee": "2007",
+    "physique": "Fert, Albert Albert Fert ;Grünberg, Peter Peter Grünberg",
+    "chimie": "Ertl, Gerhard Gerhard Ertl",
+    "psychologie_medecine": "Capecchi, Mario Mario Capecchi ;Evans, Martin Martin Evans ;Smithies, Oliver Oliver Smithies",
+    "paix": "Lessing, Doris Doris Lessing",
+    "economie": "Groupe d'experts intergouvernemental sur l'évolution du climat ;Gore, Al Al Gore"
+  },
+  {
+    "annee": "2008",
+    "physique": "Nambu, Yoichiro Yoichiro Nambu ;Kobayashi, Makoto Makoto Kobayashi ;Maskawa, Toshihide Toshihide Maskawa",
+    "chimie": "Shimomura, Osamu Osamu Shimomura ;Chalfie, Martin Martin Chalfie ;Tsien, Roger Y. Roger Y. Tsien",
+    "psychologie_medecine": "zur Hausen, Harald Harald zur Hausen ;Barré-Sinoussi, Françoise Françoise Barré-Sinoussi ;Montagnier, Luc Luc Montagnier",
+    "paix": "Le Clézio, J. M. G. J. M. G. Le Clézio",
+    "economie": "Ahtisaari, Martti Martti Ahtisaari"
+  },
+  {
+    "annee": "2009",
+    "physique": "Kao, Charles K. Charles K. Kao ;Boyle, Willard S. Willard S. Boyle ;Smith, George E. George E. Smith",
+    "chimie": "Ramakrishnan, Venkatraman Venkatraman Ramakrishnan ;Steitz, Thomas A. Thomas A. Steitz ;Yonath, Ada Ada Yonath",
+    "psychologie_medecine": "Blackburn, Elizabeth Elizabeth Blackburn ;Greider, Carol W. Carol W. Greider ;Szostak, Jack W. Jack W. Szostak",
+    "paix": "Müller, Herta Herta Müller",
+    "economie": "Obama, Barack Barack  Obama"
+  },
+  {
+    "annee": "2010",
+    "physique": "Geim, Andre Andre Geim ;Novoselov, Konstantin Konstantin Novoselov",
+    "chimie": "Heck, Richard F. Richard F. Heck ;Negishi, Ei-ichi Ei-ichi Negishi ;Suzuki, Akira Akira Suzuki",
+    "psychologie_medecine": "Edwards, Robert G. Robert G. Edwards",
+    "paix": "Vargas Llosa, Mario Mario Vargas Llosa",
+    "economie": "Xiaobo, Liu Liu Xiaobo[F]"
+  },
+  {
+    "annee": "2011",
+    "physique": "Perlmutter, Saul Saul Perlmutter ;Riess, Adam G. Adam G. Riess ;Schmidt, Brian Brian Schmidt",
+    "chimie": "Shechtman, Dan Dan Shechtman",
+    "psychologie_medecine": "Beutler, Bruce Bruce Beutler ;Hoffmann, Jules A. Jules A. Hoffmann ;Steinman, Ralph M. Ralph M.  Steinman",
+    "paix": "Tranströmer, Tomas Tomas Tranströmer",
+    "economie": "Sirleaf, Ellen Johnson Ellen Johnson Sirleaf ;Gbowee, Leymah Leymah Gbowee ;Karman, Tawakel Tawakel Karman"
+  },
+  {
+    "annee": "2012",
+    "physique": "Haroche, Serge Serge Haroche ; J. Wineland, David David  J. Wineland",
+    "chimie": "Kobilka, Brian K. Brian K. Kobilka ; Lefkowitz, Robert J. Robert J. Lefkowitz",
+    "psychologie_medecine": "Gurdon, John B. John B. Gurdon ;Yamanaka,  Shinya  Shinya Yamanaka",
+    "paix": "Yan, Mo Mo Yan",
+    "economie": "européenne, Union Union européenne"
+  },
+  {
+    "annee": "2013",
+    "physique": "Englert, François François Englert ;Higgs, Peter W. Peter W. Higgs",
+    "chimie": "Karplus, Martin Martin Karplus ;Levitt, Michael Michael Levitt ;Warshel, Arieh Arieh Warshel",
+    "psychologie_medecine": "Rothman, James E. James E. Rothman ; Schekman, Randy W. Randy W. Schekman ; Südhof, Thomas C. Thomas C. Südhof",
+    "paix": "Munro, Alice Alice Munro",
+    "economie": "armes chimiques, Organisation pour l'interdiction des Organisation pour l'interdiction des  armes chimiques"
+  },
+  {
+    "annee": "2014",
+    "physique": "Akasaki, Isamu Isamu Akasaki ;Amano, Hiroshi Hiroshi Amano ;Nakamura, Shuji Shuji Nakamura",
+    "chimie": "Betzig, Eric Eric Betzig ;Hell, Stefan Stefan Hell ;Moerner, William William Moerner",
+    "psychologie_medecine": "O'Keefe, John John O'KeefeMoser, May-Britt May-Britt MoserMoser, Edvard Edvard Moser",
+    "paix": "Modiano, Patrick Patrick Modiano",
+    "economie": "Yousafzai, Malala Malala YousafzaiSatyarthi, Kailash Kailash Satyarthi"
+  },
+  {
+    "annee": "2015",
+    "physique": "Kajita, Takaaki Takaaki KajitaMcDonald, Arthur B. Arthur B. McDonald",
+    "chimie": "Lindahl, Tomas Tomas LindahlModrich, Paul L. Paul L. ModrichSancar, Aziz Aziz Sancar",
+    "psychologie_medecine": "Campbell, William C. William C. CampbellŌmura, Satoshi Satoshi ŌmuraYouyou, Tu Tu Youyou",
+    "paix": "Aleksievitch, Svetlana Svetlana Aleksievitch",
+    "economie": "Quartet du dialogue national"
+  },
+  {
+    "annee": "2016",
+    "physique": "David J. Thouless ;\nDuncan Haldane ;\nJohn M. Kosterlitz",
+    "chimie": "Jean-Pierre Sauvage; James Fraser Stoddart; Feringa, BenBen Feringa",
+    "psychologie_medecine": "Ohsumi, YoshinoriYoshinori Ohsumi",
+    "paix": "Bob Dylan",
+    "economie": "Santos, Juan ManuelJuan Manuel Santos"
+  },
+  {
+    "annee": "2017",
+    "physique": "Rainer WeissBarry C. BarishKip Thorne",
+    "chimie": "Jacques DubochetJoachim FrankRichard Henderson",
+    "psychologie_medecine": "Jeffrey C. HallMichael RosbashMichael W. Young",
+    "paix": "Kazuo Ishiguro",
+    "economie": "ICAN"
+  },
+  {
+    "annee": "2018",
+    "physique": "Arthur AshkinGérard MourouDonna Strickland",
+    "chimie": "Frances ArnoldGeorge SmithGregory Winter",
+    "psychologie_medecine": "James AllisonTasuku Honjo",
+    "paix": "Olga Tokarczuk",
+    "economie": "Denis MukwegeNadia Murad"
+  },
+  {
+    "annee": "2019",
+    "physique": "James PeeblesMichel MayorDidier Queloz",
+    "chimie": "John B. GoodenoughStanley WhittinghamAkira Yoshino",
+    "psychologie_medecine": "William Kaelin Jr.Gregg L.SemenzaSir Peter J.Ratcliffe",
+    "paix": "Peter Handke",
+    "economie": "Abiy Ahmed"
+  },
+  {
+    "annee": "2020",
+    "physique": "Roger PenroseReinhard GenzelAndrea Ghez",
+    "chimie": "Emmanuelle CharpentierJennifer Doudna",
+    "psychologie_medecine": "Michael HoughtonHarvey J. AlterCharles M. Rice",
+    "paix": "Louise Glück",
+    "economie": "Programme alimentaire mondial"
+  }
+]

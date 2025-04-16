@@ -1,22 +1,45 @@
-const cheerio = require('cheerio')
-async function fetch () {
+import * as cheerio from "cheerio";
+import * as fs from "fs"
 
-	const $ = await cheerio.fromURL('https://www.css.cnrs.fr/scrape/nobel_all.html');
+async function fetch() {
+  try {
+    const $ = await cheerio.fromURL('https://www.css.cnrs.fr/scrape/nobel_all.html');
+    
+    // Récupération de toutes les lignes du tableau
+    const rows = [];
+    $("table tr").each((index, element) => {
+      rows.push($(element))
+    });
 
-   const rows = $("tbody tr")
-   const datas = []
-   rows.map((i , row)=>{
+	const prix_nobels = []
+	rows.shift()
+	rows.forEach(element => {
+		const columns = $(element).find("td")
 
-	const data = {
-		year: row[0].text,
-		physique: row[1].text,
-		chimie: row[2].text,
-		physiologie_medecine: row[3].text,
-		Litterature: row[4].text,
-		Paix: row[5].text,
-		Economie: row[6].text,
-	}
-   })
+		const annee = $(columns[0]).text().trim()
+		const physique = $(columns[1]).text().trim()
+		const chimie = $(columns[2]).text().trim()
+		const psychologie_medecine = $(columns[3]).text().trim()
+		const paix = $(columns[4]).text().trim()
+		const economie = $(columns[5]).text().trim()
 
+		prix_nobels.push(
+			{
+				annee,
+				physique,
+				chimie,
+				psychologie_medecine,
+				paix,
+				economie
+			}
+		)
+	});
+
+	fs.writeFileSync('prix_nobel.json', JSON.stringify(prix_nobels, null, 2), 'utf-8')
+	console.log('Enregistrement réussi !')
+  } catch (error) {
+    console.error("❌ Erreur :", error.message);
+  }
 }
-fetch()
+
+fetch();
