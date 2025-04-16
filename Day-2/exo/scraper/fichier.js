@@ -3,21 +3,20 @@ async function fetch () {
 
 	const $ = await cheerio.fromURL('https://www.css.cnrs.fr/scrape/nobel_all.html');
 
-    const data = $.extract({
-	releases: [
-		{
-     		 // First, we select individual release sections.
-     		 selector: 'tbody',
-      		// Then, we extract the release date, name, and notes from each section.
-      		 value: {
-        	// Selectors are executed within the context of the selected element.
-        	 name: 'tr',
-      		},
-	    }
-	]
-     });
+   const rows = $("tbody tr")
+   const datas = []
+   rows.map((i , row)=>{
 
-console.log(data)
+	const data = {
+		year: row[0].text,
+		physique: row[1].text,
+		chimie: row[2].text,
+		physiologie_medecine: row[3].text,
+		Litterature: row[4].text,
+		Paix: row[5].text,
+		Economie: row[6].text,
+	}
+   })
 
 }
 fetch()
