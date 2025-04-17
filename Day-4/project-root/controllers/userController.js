@@ -1,26 +1,31 @@
-import User from "../models/User.js";
+const User = require('../models/User');
 
-export const getMe = async (req, res) => {
-  res.json(req.user);
-};
-
-export const getUsers = async (req, res) => {
+exports.getMe = (req, res) => {
   try {
-    const users = await User.find({}).select("-password");
-    res.json(users);
-  } catch (err) {
-    res.status(500).json({ error: "Erreur serveur" });
+    const { password, ...userData } = req.user;
+    res.json({ success: true, user: userData });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error fetching user data' });
   }
 };
 
-export const deleteUser = async (req, res) => {
+exports.getAllUsers = (req, res) => {
   try {
-    const user = await User.findByIdAndDelete(req.params.id);
-    if (!user) {
-      return res.status(404).json({ error: "Utilisateur non trouvé" });
+    const users = User.getAll();
+    res.json({ success: true, users });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error fetching users' });
+  }
+};
+
+exports.deleteUser = (req, res) => {
+  try {
+    const deletedUser = User.delete(req.params.id);
+    if (!deletedUser) {
+      return res.status(404).json({ success: false, message: 'User not found' });
     }
-    res.json({ message: `Utilisateur ${user.email} supprimé` });
-  } catch (err) {
-    res.status(500).json({ error: "Erreur serveur" });
+    res.json({ success: true, message: 'User deleted' });
+  } catch (error) {
+    res.status(500).json({ success: false, message: 'Error deleting user' });
   }
 };

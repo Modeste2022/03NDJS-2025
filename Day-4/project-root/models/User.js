@@ -1,22 +1,34 @@
-import { Schema, model } from "mongoose";
-import bcrypt from "bcryptjs";
+const users = [];
 
-const userSchema = new Schema({
-  email: { type: String, required: true, unique: true },
-  password: { type: String, required: true },
-  isAdmin: { type: Boolean, default: false },
-  createdAt: { type: Date, default: Date.now }
-});
+class User {
+  static findByEmail(email) {
+    return users.find(user => user.email === email);
+  }
 
-// Méthode pour comparer les mots de passe
-userSchema.methods.matchPassword = async function (enteredPassword) {
-  return await bcrypt.compare(enteredPassword, this.password);
-};
+  static findById(id) {
+    return users.find(user => user.id === id);
+  }
 
-// Hachage du mot de passe avant sauvegarde
-userSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) next();
-  this.password = await bcrypt.hash(this.password, 10);
-});
+  static create(userData) {
+    const user = { id: Date.now().toString(), ...userData };
+    users.push(user);
+    return user;
+  }
 
-export const User = model("User", userSchema);
+  static getAll() {
+    return users.map(user => {
+      const { password, ...userWithoutPassword } = user;
+      return userWithoutPassword;
+    });
+  }
+
+  static delete(id) {
+    const index = users.findIndex(user => user.id === id);
+    if (index !== -1) {
+      return users.splice(index, 1)[0];
+    }
+    return null;
+  }
+}
+
+module.exports = User;

@@ -1,29 +1,28 @@
-import jwt from "jsonwebtoken";
-import User from "../models/User.js";
+const jwt = require('jsonwebtoken');
+const User = require('../models/User');
 
-export const protect = async (req, res, next) => {
-  let token;
-  if (req.headers.authorization?.startsWith("Bearer")) {
-    token = req.headers.authorization.split(" ")[1];
-  }
+const JWT_SECRET = 'your-secret-key'; // Should match the one in authController
 
-  if (!token) {
-    return res.status(401).json({ error: "Non autorisé - Token manquant" });
-  }
-
+exports.authenticate = (req, res, next) => {
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || "superSecretKey");
-    req.user = await User.findById(decoded.id).select("-password");
-    next();
-  } catch (err) {
-    res.status(401).json({ error: "Token invalide" });
-  }
-};
+    const token = req.header('Authorization')?.replace('Bearer ', '');
+    
+    if (!token) {
+      return res.status(401).json({ message: 'No token, authorization denied' });
+    }
 
-export const admin = (req, res, next) => {
-  if (req.user && req.user.isAdmin) {
+    // Verify token
+    const decoded = jwt.verify(token, JWT_SECRET);
+    
+    // Find user and attach to request
+    const user = User.findById(decoded.userId);
+    if (!user) {
+      return res.status(401).json({ message: 'User not found' });
+    }
+
+    req.user = user;
     next();
-  } else {
-    res.status(403).json({ error: "Accès réservé aux administrateurs" });
+  } catch (error) {
+    res.status(401).json({ message: 'Token is not valid' });
   }
 };

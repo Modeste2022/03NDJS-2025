@@ -1,28 +1,14 @@
-import express from "express";
-import dotenv from "dotenv";
-import connectDB from "./db/connectDB.js";
-import authRoutes from "./routes/authRoutes.js";
-import userRoutes from "./routes/userRoutes.js";
-
-dotenv.config();
-connectDB();
-
+// server.js
+const express = require('express');
+const cors = require('cors');
 const app = express();
 
-// Middleware
+app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("/api/auth", authRoutes);
-app.use("/api", userRoutes);
-
-// Gestion des erreurs
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).json({ error: "Erreur serveur" });
-});
+app.use('/auth', require('./routes/authRoutes'));
+app.use('/users', require('./routes/userRoutes'));
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => 
-  console.log(`Serveur en cours sur http://localhost:${PORT}`)
-);
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
