@@ -1,49 +1,22 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const { JWT_SECRET } = require('../config/jwt');
+import { Schema, model } from "mongoose";
+import bcrypt from "bcryptjs";
 
-let users = [];
-let nextId = 1;
+const userSchema = new Schema({
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  isAdmin: { type: Boolean, default: false },
+  createdAt: { type: Date, default: Date.now }
+});
 
-class User {
-    static async create({ email, password }) {
-        const exists = users.some(u => u.email === email);
-        if (exists) throw new Error('Email already exists');
-        
-        const hashedPassword = await bcrypt.hash(password, 10);
-        const user = { id: nextId++, email, password: hashedPassword };
-        users.push(user);
-        return user;
-    }
+// Méthode pour comparer les mots de passe
+userSchema.methods.matchPassword = async function (enteredPassword) {
+  return await bcrypt.compare(enteredPassword, this.password);
+};
 
-    static async findByCredentials(email, password) {
-        const user = users.find(u => u.email === email);
-        if (!user) throw new Error('Invalid credentials');
-        
-        const isMatch = await bcrypt.compare(password, user.password);
-        if (!isMatch) throw new Error('Invalid credentials');
-        
-        return user;
-    }
+// Hachage du mot de passe avant sauvegarde
+userSchema.pre("save", async function (next) {
+  if (!this.isModified("password")) next();
+  this.password = await bcrypt.hash(this.password, 10);
+});
 
-    static generateAuthToken(user) {
-        return jwt.sign({ id: user.id }, JWT_SECRET, { expiresIn: '1h' });
-    }
-
-    static findById(id) {
-        return users.find(u => u.id === id);
-    }
-
-    static getAll() {
-        return users.map(u => ({ id: u.id, email: u.email }));
-    }
-
-    static delete(id) {
-        const index = users.findIndex(u => u.id === id);
-        if (index === -1) return false;
-        users.splice(index, 1);
-        return true;
-    }
-}
-
-module.exports = { User, connectDB: () => console.log('Using in-memory storage') };
+export const User = model("User", userSchema);
