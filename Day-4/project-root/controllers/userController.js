@@ -1,31 +1,50 @@
-const User = require('../models/User');
+const mongoose = require('mongoose');
 
-exports.getMe = (req, res) => {
+const connectDB = async () => {
   try {
-    const { password, ...userData } = req.user;
-    res.json({ success: true, user: userData });
-  } catch (error) {
-    res.status(500).json({ success: false, message: 'Error fetching user data' });
-  }
-};
+    // Configuration de la connexion
+    const conn = await mongoose.connect('mongodb://127.0.0.1:27017/user-auth-api', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      // useCreateIndex: true, // Déprécié dans les versions récentes de Mongoose
+      // useFindAndModify: false // Déprécié dans les versions récentes
+    });
 
-exports.getAllUsers = (req, res) => {
-  try {
-    const users = User.getAll();
-    res.json({ success: true, users });
-  } catch (error) {
-    res.status(500).json({ success: false, message: 'Error fetching users' });
-  }
-};
-
-exports.deleteUser = (req, res) => {
-  try {
-    const deletedUser = User.delete(req.params.id);
-    if (!deletedUser) {
-      return res.status(404).json({ success: false, message: 'User not found' });
+    console.log(`✅ MongoDB connecté avec succès sur: ${conn.connection.host}`);
+    
+  } catch (err) {
+    console.error('❌ Échec de connexion à MongoDB:', err.message);
+    
+    // Suggestions de dépannage
+    if (err.message.includes('ECONNREFUSED')) {
+      console.log('\nConseils de dépannage:');
+      console.log('1. Vérifiez que MongoDB est bien installé et démarré');
+      console.log('2. Lancer MongoDB avec: sudo service mongod start');
+      console.log('3. Vérifiez le port par défaut (27017)');
     }
-    res.json({ success: true, message: 'User deleted' });
-  } catch (error) {
-    res.status(500).json({ success: false, message: 'Error deleting user' });
+    
+    process.exit(1); // Arrêt de l'application en cas d'erreur
   }
 };
+
+// Gestion des événements de connexion
+mongoose.connection.on('connected', () => {
+  console.log('📌 Événement MongoDB: Connecté');
+});
+
+mongoose.connection.on('error', (err) => {
+  console.error('⚠️ Événement MongoDB - Erreur:', err.message);
+});
+
+mongoose.connection.on('disconnected', () => {
+  console.log('🔌 Événement MongoDB: Déconnecté');
+});
+
+// Gestion propre de la fermeture
+process.on('SIGINT', async () => {
+  await mongoose.connection.close();
+  console.log('⏏️ Connexion MongoDB fermée proprement');
+  process.exit(0);
+});
+
+module.exports = connectDB;
